@@ -45,3 +45,5 @@ docker exec nodeapp node seeds/seed.js
 
 ![](images/task2.jpg)
 
+- Since we are using Jenkins, we can pull the latest Jenkins image from DockerHub and run it in a container for use:
+    - Run `docker pull jenkins/jenkins:lts`
