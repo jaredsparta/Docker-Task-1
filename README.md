@@ -47,3 +47,10 @@ docker exec nodeapp node seeds/seed.js
 
 - Since we are using Jenkins, we can pull the latest Jenkins image from DockerHub and run it in a container for use:
     - Run `docker pull jenkins/jenkins:lts`
+
+<br>
+
+---
+
+### Used:
+- [Jenkins and pushing to Docker Hub](https://medium.com/swlh/jenkins-pipeline-to-create-docker-image-and-push-to-docker-hub-721919512f2)

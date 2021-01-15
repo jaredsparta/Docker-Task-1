@@ -3,8 +3,9 @@ services:
   nodejs:
     container_name: nodeapp
     build: ./app
+    image: jaredsparta/jenkins-task-app
     ports: 
-      - "3000:3000"
+      - "80:3000"
     environment:
       - DB_HOST=database:27017
     depends_on:
